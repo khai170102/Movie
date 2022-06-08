@@ -1,0 +1,74 @@
+/* You can remove these code below*/
+:root {
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+  }*{box-sizing:border-box;}input,button,textarea{border:0;outline:none;}
+  /* Main code */
+  
+          .flip-card {
+            max-width: 30rem;
+            height: 320px;
+            margin: 0px 10px;
+            perspective: 150rem;
+          }
+          .flip-card-inner {
+            width: 200px;
+            height: 300px;
+            perspective: 100px;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+          }
+          .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+          }
+          .flip-card .front,
+          .flip-card .back {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+          }
+          .flip-card .back {
+            transform: rotateY(180deg);
+            position: relative;
+            opacity: 60%;
+            
+          }
+
+          .flip-card img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+          }
+          .back-icons{
+            color: white;
+          position: absolute;
+          left: 84px;
+          bottom: 150px;
+          width: 50px;
+          height: 50px;
+          z-index: 1;
+          }
+          .title{
+            position: absolute;
+           top:14px;
+            
+          }
+          .title h1{
+font-size: 14px;
+font-weight: 10px;
+color: white;
+
+          }

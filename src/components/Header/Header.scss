@@ -1,0 +1,236 @@
+
+.headersub{
+    overflow: hidden;
+    
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10000;
+    background-color: black;
+}
+.logo{
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+    padding:8px 24px ;
+    display: block;
+    width: 50px;
+    height: 0px;
+
+
+}
+.span1{
+    color: white;
+    font-size: 25px;
+    font-style:italic;
+    
+}
+.span2{
+    
+    font-size: 25px;
+    font-style:italic;
+}
+a{
+    color: white;
+    font-weight: 600;
+    
+    height: 50px;
+    margin-top: -20px;
+}
+.ba {
+    border-style: solid;
+    border-width: 1px;
+    
+  }
+  
+ 
+  
+  .bb {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: white;
+  }
+  
+  .b--white {
+    border-color: white;
+  }
+  
+  
+  
+  .dib {
+    display: inline-block;
+  }
+  
+  .avenir {
+    font-family: 'avenir next', avenir, sans-serif;
+  }
+  
+  .baskerville {
+    font-family: baskerville, serif;
+  }
+  
+  .i {
+    font-style: italic;
+  }
+  
+  .fw1 {
+    font-weight: 100;
+  }
+  
+  .fw4 {
+    font-weight: 400;
+  }
+  
+  .h2 {
+    height: 2rem;
+  }
+  
+  .tracked {
+    letter-spacing: .1em;
+  }
+  
+  .link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+  }
+  
+  .link:link, .link:visited {
+    transition: color .15s ease-in;
+  }
+  
+  .link:hover {
+    transition: color .15s ease-in;
+  }
+  
+  .link:active {
+    transition: color .15s ease-in;
+  }
+  
+  .link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+  }
+  
+  .mw7 {
+    max-width: 48rem;
+  }
+  
+  .w2 {
+    width: 2rem;
+  }
+  
+  .black-80 {
+    color: rgba(255, 255, 255, 255);
+  }
+  
+  .white {
+    color: #fff;
+  }
+  
+  .bg-black-80 {
+    background-color:white;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .hover-bg-light-yellow:hover {
+    background-color: #fbf1a9;
+  }
+  
+  .hover-bg-light-yellow:focus {
+    background-color: #fbf1a9;
+  }
+  
+  .hover-bg-light-pink:hover {
+    background-color: #ffa3d7;
+  }
+  
+  .hover-bg-light-pink:focus {
+    background-color: #ffa3d7;
+  }
+  
+  .hover-bg-light-green:hover {
+    background-color: #9eebcf;
+  }
+  
+  .hover-bg-light-green:focus {
+    background-color: #9eebcf;
+  }
+  
+  .hover-bg-light-blue:hover {
+    background-color: #797c7e;
+  }
+  
+  .hover-bg-light-blue:focus {
+    background-color: #797c7e;
+  }
+  
+  .hover-bg-lightest-blue:hover {
+    background-color: #797c7e;
+  }
+  
+  .hover-bg-lightest-blue:focus {
+    background-color: #797c7e;
+  }
+  
+  .pa3 {
+    padding: 1rem;
+  }
+  
+  .pv4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .mb0 {
+    margin-bottom: 0;
+  }
+  
+  .mt2 {
+    margin-top: .5rem;
+  }
+  
+  .mt4 {
+    margin-top: 2rem;
+  }
+  
+  .tc {
+    text-align: center;
+  }
+  
+  .ttu {
+    text-transform: uppercase;
+  }
+  
+  .f1 {
+    font-size: 3rem;
+  }
+  
+  .f6 {
+    font-size: .875rem;
+  }
+  
+  .center {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .bg-animate, .bg-animate:hover, .bg-animate:focus {
+    transition: background-color .15s ease-in-out;
+  }
+  
+  
+  @media screen and (min-width: 60em) {
+    .ph4-l {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+  
+    .f5-l {
+        font-size: 1rem;
+    }
+  }
+  
+  
